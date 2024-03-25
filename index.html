@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    
+    <style>
+        body {
+            opacity: 1; /* Set initial opacity to 0 */
+            transition: opacity 2s ease-in-out; /* Set the transition property for the body */
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content:center;
+            align-items:center; 
+            height: 98vh;
+            width: 99vw;
+        }
+        #title {
+          font-size: 50px;
+          font: 500;
+          font-style: normal;
+        }
+    </style>
+</head>
+<body onclick="fadeOutAndRedirect()">
+    <!--
+    <h1 id="title"> Cherokee Goldberg </h1>
+-->
+    <img id="title "src="Sign.png" alt="CVSITE" style="width: 500px; height: 300px;">
+    
+
+    <script>
+        // Function to fade out the body and redirect to the second page
+        function fadeOutAndRedirect() {
+            document.body.style.opacity = 0; // Set the opacity to 0
+            setTimeout(() => {
+                window.location.href = 'index2.html'; // Redirect after the transition duration
+            }, 2000);
+        }
+    </script>
+
+
+</body>
+</html>
