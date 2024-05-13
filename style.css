@@ -106,12 +106,12 @@ nav a {
 }
 .about {
     height: auto ;
-    width: 100vw;
+    width: 99vw;
     border: solid black 1px;
 }
 .services {
     height: auto ;
-    width: 100vw;
+    width: 99vw;
     border: solid black 1px;
 }
 
