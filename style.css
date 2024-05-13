@@ -1,5 +1,6 @@
 /* Reset some default styles */
 body {
+    background-color: black;
     
 }
 body, h1, h2, p, ul, li {
@@ -45,16 +46,6 @@ nav a {
     color: #fff;
 }
 
-.hero {
-    text-align: center;
-    padding: 100px 0;
-    background-color: #f4f4f4;
-    height: auto ;
-    min-height: 50vh;
-    width: auto;
-    border: solid black 1px;
-
-}
 .popup-container {
     display: none;
     position: fixed;
@@ -68,7 +59,7 @@ nav a {
     z-index: 1000;
     height: auto;
     width: auto;
-
+    
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -109,10 +100,23 @@ nav a {
     width: 99vw;
     border: solid black 1px;
 }
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #333;
+    height: auto ;
+    min-height: 50vh;
+    width: 99vw;
+    border: solid black 1px;
+    color: white;
+
+}
 .services {
     height: auto ;
     width: 99vw;
     border: solid black 1px;
+    background-color: #333;
+    color: white;
 }
 
 footer {
